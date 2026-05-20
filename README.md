@@ -9,7 +9,7 @@
 [![Gallery-Open website-black](https://img.shields.io/badge/Gallery-Open_Website-black)](https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-omni-prompts)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
-[View the interactive gallery](https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=hero&utm_campaign=awesome-gemini-omni-prompts) · [Submit a prompt](../../issues/new?template=submit-prompt.yml) · [Browse all cases](cases/cinematic-storytelling.md)
+[View the interactive gallery](https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=hero&utm_campaign=awesome-gemini-omni-prompts) · [Submit a prompt](https://github.com/EchoSell/awesome-gemini-omni-prompts/issues/new?template=submit-prompt.yml) · [Browse all cases](cases/cinematic-storytelling.md)
 
 </div>
 
