@@ -1,0 +1,75 @@
+name: "Submit a Gemini Omni Prompt"
+description: "Share a high-quality Gemini Omni prompt + video example"
+title: "[Prompt] "
+labels: ["prompt-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing a Gemini Omni prompt case. Please include enough detail for prompt + video comparison.
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+      description: Short descriptive title, 3-8 words.
+      placeholder: "Paradise Window Edit"
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Full prompt text
+      description: Paste the complete reusable prompt.
+      render: text
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "Cinematic & Storytelling"
+        - "Reference Video Editing"
+        - "Product & Advertising"
+        - "Explainers & Education"
+        - "Surreal Motion & VFX"
+        - "Characters & Creatures"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      placeholder: "https://x.com/username/status/..."
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Original author
+      placeholder: "@username"
+    validations:
+      required: true
+  - type: textarea
+    id: output_video
+    attributes:
+      label: Output video
+      description: Drag and drop the output video, or paste a public video link.
+    validations:
+      required: true
+  - type: textarea
+    id: reference_media
+    attributes:
+      label: Reference media, if any
+      description: Add source image/video links when the prompt uses references.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: "I credited the original creator, or I am the original creator."
+          required: true
+        - label: "This example is useful for learning prompt-to-video behavior."
+          required: true
