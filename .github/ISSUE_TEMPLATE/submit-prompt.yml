@@ -1,39 +1,35 @@
-name: "Submit a Gemini Omni Prompt"
-description: "Share a high-quality Gemini Omni prompt + video example"
+name: "🎬 Submit a Gemini Omni Prompt"
+description: "Share a high-quality Gemini Omni prompt with the community"
 title: "[Prompt] "
 labels: ["prompt-submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing a Gemini Omni prompt case. Please include enough detail for prompt + video comparison.
+        Thanks for contributing a Gemini Omni prompt. Please include enough detail for others to reproduce the result.
   - type: input
     id: title
     attributes:
-      label: Prompt title
-      description: Short descriptive title, 3-8 words.
-      placeholder: "Paradise Window Edit"
+      label: Prompt Title
+      description: "A short descriptive title."
+      placeholder: "e.g., Magnifying Glass Physics"
     validations:
       required: true
   - type: textarea
     id: prompt
     attributes:
-      label: Full prompt text
-      description: Paste the complete reusable prompt.
+      label: Full Prompt Text
+      description: "The complete reusable prompt, if available."
       render: text
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: category
     attributes:
       label: Category
       options:
-        - "Cinematic & Storytelling"
-        - "Reference Video Editing"
-        - "Product & Advertising"
-        - "Explainers & Education"
-        - "Surreal Motion & VFX"
-        - "Characters & Creatures"
+        - "Text-to-Video Generation"
+        - "Video Editing / V2V"
     validations:
       required: true
   - type: input
@@ -46,30 +42,21 @@ body:
   - type: input
     id: author
     attributes:
-      label: Original author
+      label: Original Author
       placeholder: "@username"
     validations:
       required: true
   - type: textarea
-    id: output_video
+    id: media
     attributes:
-      label: Output video
-      description: Drag and drop the output video, or paste a public video link.
+      label: Output / Reference Media
+      description: "Paste links or upload screenshots/videos if GitHub allows."
     validations:
       required: true
-  - type: textarea
-    id: reference_media
-    attributes:
-      label: Reference media, if any
-      description: Add source image/video links when the prompt uses references.
-    validations:
-      required: false
   - type: checkboxes
     id: confirmation
     attributes:
       label: Confirmation
       options:
-        - label: "I credited the original creator, or I am the original creator."
-          required: true
-        - label: "This example is useful for learning prompt-to-video behavior."
+        - label: "I credited the original author or I am the original author."
           required: true
