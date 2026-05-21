@@ -14,9 +14,30 @@
 
 </div>
 
+## Introduction
+
+**A curated Gemini Omni prompt library for studying how prompts, reference media, and output videos connect.**
+
+<p align="center">
+  <a href="https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=readme_cta&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/Open_Video_Gallery-111111?style=for-the-badge&logo=githubpages&logoColor=white" height="32"></a>
+  <a href="https://www.creatok.ai/zh?utm_source=github&utm_medium=readme_cta&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/Supported_by-CreatOK-ff3b18?style=for-the-badge" height="32"></a>
+</p>
+
+A lightweight test set of **30 manually reviewed Gemini Omni prompt + video examples** gathered from public X posts. Each case keeps the prompt, source link, output preview, and category context so you can quickly compare what was asked with what was generated.
+
+| 30 curated cases | Prompt + reference + output | Source-linked examples | Local video previews |
+| :--------------: | :-------------------------: | :--------------------: | :------------------: |
+| Manual review | Reusable workflows | Original X posts | Fast browsing |
+
+The full interactive video gallery is hosted separately:
+
+<p align="center">
+  <a href="https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/🚀_Open-Gemini_Omni_Gallery-black" height="28"></a>
+  <a href="https://www.creatok.ai/zh?utm_source=github&utm_medium=readme_intro&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/Supported_by-CreatOK-ff3b18" height="28"></a>
+</p>
+
 ## Contents
 
-- [Introduction](#introduction)
 - [What is Gemini Omni](#what-is-gemini-omni)
 - [News](#news)
 - [Use Gemini Omni Prompts](#use-gemini-omni-prompts)
@@ -25,15 +46,6 @@
 - [How to Contribute](#how-to-contribute)
 - [Acknowledge](#acknowledge)
 - [Star History](#star-history)
-
-## Introduction
-
-A curated collection of **30 Gemini Omni prompt + video examples** gathered from public X posts and manually reviewed for prompt/video pairing quality.
-
-This repository is designed as a lightweight prompt library and discovery surface. The full interactive video gallery is hosted separately:
-
-<a href="https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/🚀_Open-Gemini_Omni_Gallery-black" height="28"></a>
-<a href="https://www.creatok.ai/zh?utm_source=github&utm_medium=readme_intro&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/Supported_by-CreatOK-ff3b18" height="28"></a>
 
 ## What is Gemini Omni
 
