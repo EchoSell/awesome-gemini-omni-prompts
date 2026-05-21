@@ -2,9 +2,14 @@
 
 <div align="center">
 
+<a href="https://www.creatok.ai/zh?utm_source=github&utm_medium=readme_hero&utm_campaign=awesome-gemini-omni-prompts">
+  <img src="assets/hero-banner.png" alt="Awesome Gemini Omni Prompts, supported by CreatOK" width="100%">
+</a>
+
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 [![30 Curated Prompts](https://img.shields.io/badge/Prompts-30_Curated_Cases-111111)](#contents)
 [![Gemini Omni Gallery](https://img.shields.io/badge/🎬_Gemini_Omni-Video_Gallery-black)](https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-omni-prompts)
+[![Supported by CreatOK](https://img.shields.io/badge/Supported_by-CreatOK-ff3b18)](https://www.creatok.ai/zh?utm_source=github&utm_medium=readme_badge&utm_campaign=awesome-gemini-omni-prompts)
 [![中文](https://img.shields.io/badge/中文-README_zh--CN-ef476f)](README_zh-CN.md)
 
 </div>
@@ -28,6 +33,7 @@ A curated collection of **30 Gemini Omni prompt + video examples** gathered from
 This repository is designed as a lightweight prompt library and discovery surface. The full interactive video gallery is hosted separately:
 
 <a href="https://yuanxingniao.github.io/gemini-omni-prompt-gallery/?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/🚀_Open-Gemini_Omni_Gallery-black" height="28"></a>
+<a href="https://www.creatok.ai/zh?utm_source=github&utm_medium=readme_intro&utm_campaign=awesome-gemini-omni-prompts"><img src="https://img.shields.io/badge/Supported_by-CreatOK-ff3b18" height="28"></a>
 
 ## What is Gemini Omni
 
